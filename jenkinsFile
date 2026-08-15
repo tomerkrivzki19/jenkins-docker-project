@@ -40,7 +40,6 @@ pipeline {
       }
 
    }
-}
 
 post {
     success{
@@ -50,6 +49,8 @@ post {
       echo "משהו נכשל ❌"
     }
 }
+}
+
 
 // node {
 //     checkout scm
