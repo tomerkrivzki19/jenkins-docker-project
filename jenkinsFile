@@ -34,7 +34,7 @@ pipeline {
 
       stage('Deploy') {
             steps {
-                echo 'מריצים את הגרסה החדשה על פורט 8001'
+               echo 'מריצים את הגרסה החדשה על פורט 8001'
                sh '''
                   docker rm -f greets-live || true
                   docker run -d --name greets-live -p 8001:8000 jenkins:latest

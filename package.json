@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "test": "node --test",
+    "build": "echo 'No compilation needed for vanilla Node.js'",
     "start": "nodemon app.js"
   },
   "keywords": [],
