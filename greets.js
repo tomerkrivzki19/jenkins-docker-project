@@ -16,7 +16,6 @@ const greets = [
   "Your future starts with what you do today.",
 
   "you have beautiful soul",
-  "you have beautiful dress",
 ];
 
 function randomGreets() {
